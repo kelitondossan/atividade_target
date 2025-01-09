@@ -4,7 +4,6 @@ using System.Linq;
 
 class Program
 {
-    // Classe para representar faturamento diário
     public class FaturamentoDia
     {
         public int Dia { get; set; }
