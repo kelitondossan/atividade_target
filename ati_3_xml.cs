@@ -16,7 +16,7 @@ namespace FaturamentoApp
 
         static void Main(string[] args)
         {
-            string xmlFile = "faturamento.xml";
+            string xmlFile = "Dados(2).xml";
             var dados = LerXml(xmlFile);
 
             var faturamentoValido = dados.Where(x => x.valor > 0).Select(x => x.valor).ToList();
