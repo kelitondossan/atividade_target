@@ -17,7 +17,7 @@ namespace FaturamentoApp
         static void Main(string[] args)
         {
            
-            string jsonFile = "faturamento.json";
+            string jsonFile = "Dados.json";
 
             string jsonContent = File.ReadAllText(jsonFile);
 
